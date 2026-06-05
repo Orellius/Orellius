@@ -1,6 +1,6 @@
 # Orel Ohayon
 
-Building desktop apps, agentic dev tools, and a FiveM roleplay framework. Israel-based.
+Building desktop and web apps, agentic dev tools, and a FiveM roleplay framework. Israel-based.
 
 Rust + Tauri 2 for desktop, TypeScript + Next.js 16 + Bun for web, Lua on FXServer for FiveM.
 
