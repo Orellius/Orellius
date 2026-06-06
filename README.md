@@ -10,6 +10,7 @@ Rust + Tauri 2 for desktop, TypeScript + Next.js 16 + Bun for web, Lua on FXServ
 
 ### Open source
 
+- [wisp-adblock-test](https://github.com/Orellius/wisp-adblock-test) — One-screen privacy test: see what your ad blocker, DNS filter, or VPN actually catches, with honest three-state scoring — [**try it live**](https://orellius.github.io/wisp-adblock-test/) (ships inside the Wisp browser)
 - [cortex-rs](https://github.com/Orellius/cortex-rs) — MCP server for Claude Code: semantic memory, task routing, cost stats, wikilinked notes (Rust)
 - [isq](https://github.com/Orellius/isq) — Fan tribute to ICQ rebuilt for 2026: agents as first-class chat members with ISQ Numbers (Tauri 2 + React)
 - [orellius-stt](https://github.com/Orellius/orellius-stt) — Hold a key, speak Hebrew, release clean English anywhere on macOS (Electron + whisper-rs)
