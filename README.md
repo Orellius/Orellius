@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/logo.svg" width="96" height="96" alt="Orellius logo" />
+</p>
+
 # Orel Ohayon
 
 Building desktop and web apps, agentic dev tools, and a FiveM roleplay framework. Israel-based.
