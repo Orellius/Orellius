@@ -48,6 +48,11 @@ for Israel. Official Pikud HaOref alerts on the web and Telegram.
 ![Vercel](https://img.shields.io/badge/Vercel-1a1a1a?style=flat-square&logo=vercel&logoColor=white)
 ![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white)
 
+## Open source
+
+- **[OpenDisplay](https://github.com/Orellius/opendisplay)** - HiDPI resolutions macOS hides on sub-4K external monitors (Apple Silicon). A menu-bar app: software brightness / warmth / contrast, deep dimming, refresh, rotation, a headless virtual display, plus a CLI and Shortcuts. Swift · AppKit · AGPL-3.0.
+- **[GlyphCast](https://github.com/Orellius/glyphcast-core)** - video as text: a typography-only video codec. Every frame is Unicode glyphs + per-cell color, GPU-rendered in one draw call, lossless on a byte-aligned wire a terminal can decode. The open core of [glyphcast.tv](https://glyphcast.tv).
+
 ---
 
 [orellius.ai](https://orellius.ai) · orel@orellius.ai
