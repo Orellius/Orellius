@@ -4,10 +4,6 @@
 
 # Orel Ohayon
 
-Israel-based builder. Desktop apps, browsers, game frameworks, and live maps -
-local-first by default, Hebrew/RTL as first-class. Most repos here are private;
-the live products do the talking.
-
 ## Live:
 [Azaka](https://azaka.orellius.ai) - real-time Red Alert map
 for Israel. Official Pikud HaOref alerts on the web and Telegram.
