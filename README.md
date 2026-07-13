@@ -1,6 +1,6 @@
 # Orel Ohayon
 
-Self-taught builder out of Haifa. I work top-to-bottom — Chromium internals and
+Self-taught builder out of Israel. I work top-to-bottom — Chromium internals and
 Wine→Metal translation at the metal, Hebrew-first web and real-time infra at the
 surface — and ship the whole thing myself.
 
