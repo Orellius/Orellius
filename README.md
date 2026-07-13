@@ -1,8 +1,8 @@
 # Orel Ohayon
 
-Self-taught builder out of Israel. I work top-to-bottom — Chromium internals and
+Self-taught builder out of Israel. I work top-to-bottom - Chromium internals and
 Wine→Metal translation at the metal, Hebrew-first web and real-time infra at the
-surface — and ship the whole thing myself.
+surface - and ship the whole thing myself.
 
 ### Live
 
@@ -18,7 +18,7 @@ surface — and ship the whole thing myself.
 - **[glyphcast-core](https://github.com/Orellius/glyphcast-core)** - the
   typography codec itself. GPU-rendered in one draw call, lossless on a
   byte-aligned wire, zero runtime deps. Apache-2.0.
-- **[opendisplay](https://github.com/Orellius/opendisplay)** — HiDPI
+- **[opendisplay](https://github.com/Orellius/opendisplay)** - HiDPI
   resolutions macOS hides on sub-4K monitors on Apple Silicon. Swift, no kernel
   extension.
 
