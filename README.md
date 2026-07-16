@@ -38,7 +38,7 @@ No job titles and no dates, because there are none to invent.
 - **Independent developer** — dozens of projects from nothing: the idea, the build, then the part nobody puts on a slide, keeping them running afterwards.
 - **Remote technical support** — Windows and network faults diagnosed and repaired without touching the machine.
 - **Self-run infrastructure** — a private Windows and Mac network on an encrypted mesh, remote access, automated backups. Nothing public-facing. One admin.
-- **Self-taught** — 11 years of school. Everything after that was self-directed. The proof is software that runs, not a diploma.
+- **Self-taught** — The proof is software that runs, not a diploma.
 
 ## Writing
 
