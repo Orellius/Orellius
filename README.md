@@ -44,4 +44,4 @@ I build systems from the bottom up: an operating system for AI agents, a termina
 
 `Rust` · `TypeScript` · `Swift` · `Python` · `Lua` · `C/WASM` · `Chromium` · `Tauri` · `Next` · `React` · `Bun`
 
-Self-taught. Haifa, Israel. [orel@orellius.ai](mailto:orel@orellius.ai) <!-- allow-personal: Orel's own profile contact block, his ask, 2026-08-08 -->
+Self-taught from Israel. [orel@orellius.ai](mailto:orel@orellius.ai) 
