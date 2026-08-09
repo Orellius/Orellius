@@ -10,6 +10,8 @@
 
 I build systems from the bottom up: an operating system for AI agents, a terminal engine, and an on-device Hebrew voice stack. All three are AGPL-3.0 and readable in full, tests and gates included.
 
+---
+
 ### coluanos
 
 **An operating system for AI agents, written from zero.** No Linux in the guest: a Rust `no_std` aarch64 kernel on virtual hardware. Agents are processes behind a capability-gated syscall ABI, LLM inference is a paravirtual device, and every governed decision lands on a hash-chained audit tape. One image boots on both QEMU and Apple Virtualization.
