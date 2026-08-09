@@ -16,11 +16,15 @@ I build systems from the bottom up: an operating system for AI agents, a termina
 
 `Rust` · `no_std` · `aarch64` · `hypervisors` · [repo](https://github.com/Orellius/coluanos)
 
+---
+
 ### mind2t
 
 **A terminal written from zero in Rust, checked case by case against a real one.** Hebrew, Arabic and Persian render properly: bidi reordering, cursive joining, GPOS-placed niqqud. 223 differential cases against a reference implementation, plus a drop-in C ABI you can link in place of libghostty-vt.
 
 `Rust` · `wgpu` · `Tauri 2` · `bidi` · [repo](https://github.com/Orellius/mind2t)
+
+---
 
 ### ozen
 
@@ -43,5 +47,7 @@ I build systems from the bottom up: an operating system for AI agents, a termina
 ---
 
 `Rust` · `TypeScript` · `Swift` · `Python` · `Lua` · `C/WASM` · `Chromium` · `Tauri` · `Next` · `React` · `Bun`
+
+---
 
 Self-taught from Israel. [orel@orellius.ai](mailto:orel@orellius.ai) 
