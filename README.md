@@ -1,5 +1,3 @@
----
-  
 `Rust` · `TypeScript` · `Swift` · `Python` · `Lua` · `C/WASM` · `Chromium` · `Tauri` · `Next` · `React` · `Bun`
 
 ---
