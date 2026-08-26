@@ -1,26 +1,19 @@
-### Orel Ohayon
+## Orel Ohayon
 
-I build low-level systems software and the infrastructure that supervises AI coding agents.
-I work by measurement: where most teams estimate cost, render quality or attack surface,
-I instrument it and read the number.
+Systems software and agent infrastructure. I instrument what other people estimate.
 
----
+### Public work
 
-**[OpenDisplay](https://github.com/Orellius/opendisplay)** &middot; Swift
-A display control panel for macOS. The HiDPI modes the system generates and then filters
-out of its own list, plus brightness that keeps going below the panel's own floor, warmth,
-contrast, refresh rate and rotation. No driver, no kernel extension.
+**[OpenDisplay](https://github.com/Orellius/opendisplay)** &mdash; a display control panel for macOS.
+The HiDPI modes the system generates and then filters out of its own list, and brightness that
+keeps going below the panel's own floor. No driver, no kernel extension. *Swift*
 
-**[Trumpet](https://github.com/Orellius/trumpet)** &middot; Swift
-A per-application volume mixer in the menu bar, built on CoreAudio process taps. One slider
-per app that is making sound. Nothing is installed into the audio path.
+**[Trumpet](https://github.com/Orellius/trumpet)** &mdash; a per-application volume mixer in the
+menu bar, built on CoreAudio process taps. Nothing is installed into the audio path. *Swift*
 
-**[ozen](https://github.com/Orellius/ozen)** &middot; Rust, Tauri
-Hold a key, speak Hebrew, release, and polished Hebrew or clean English lands in the focused
-app. Speech recognition and cleanup both run on-device. No audio leaves the machine.
+**[ozen](https://github.com/Orellius/ozen)** &mdash; hold a key, speak Hebrew, release, and clean
+text lands in the focused app. Recognition and cleanup both run on-device. *Rust, Tauri*
 
 ---
 
-`Rust` &middot; `Swift` &middot; `TypeScript` &middot; `Python` &middot; `Lua` &middot; `C/WASM` &middot; `Tauri` &middot; `Bun`
-
-[orel@orellius.ai](mailto:orel@orellius.ai) &middot; [orellius.ai](https://orellius.ai)
+[orel@orellius.ai](mailto:orel@orellius.ai) &nbsp;&middot;&nbsp; [orellius.ai](https://orellius.ai)
