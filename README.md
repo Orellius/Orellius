@@ -21,8 +21,9 @@ brightness that keeps going below the panel's own floor. No driver, no kernel ex
 on CoreAudio process taps. One slider per app that is making sound, and nothing is left in
 your audio path when you quit it. *Swift*
 
-**[ozen](https://github.com/Orellius/ozen)** &mdash; hold a key, speak Hebrew, release, and clean
-text lands in the focused app. Recognition and cleanup both run on-device. *Rust, Tauri*
+**[Sotto](https://github.com/Orellius/sotto)** &mdash; hold a key, speak Hebrew, release, and
+clean text lands in the focused app. Apple ships no Hebrew in Translation, FoundationModels or
+NLTagger, so recognition and cleanup both run on a local Hebrew stack instead. *Rust, Tauri*
 
 **[Yayin](https://github.com/Orellius/yayin)** &mdash; run Windows games on a Mac. A native
 SwiftUI Wine bottle manager and launcher. *Swift*
