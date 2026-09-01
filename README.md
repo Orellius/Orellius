@@ -1,80 +1,31 @@
-## Orel Ohayon
+# Orel Ohayon
 
-Systems software and agent infrastructure. I instrument what other people estimate.
+Systems architect building native software and agent infrastructure.
 
-Everything below is measured, not asserted: the numbers in these READMEs come from a
-run you can reproduce, and where a claim could not be measured it is not made.
+Coding agents are my implementation layer. I own the architecture, product decisions, acceptance criteria, and verification. I read the code, instrument the claims, and decide what ships.
 
----
+## Selected public work
 
-### macOS, native
+### Native macOS
 
-**[termisu](https://github.com/Orellius/termisu)** &mdash; a terminal emulator written in Swift.
-A real shell, real mouse selection, and none of the input paths that a synthetic-event
-harness would report as working when they are not. *Swift, 433 commits*
-
-**[OpenDisplay](https://github.com/Orellius/opendisplay)** &mdash; a display control panel in the
-menu bar. The HiDPI modes the system generates and then filters out of its own list, plus
-brightness that keeps going below the panel's own floor. No driver, no kernel extension. *Swift*
-
-**[Trumpet](https://github.com/Orellius/trumpet)** &mdash; a per-application volume mixer, built
-on CoreAudio process taps. One slider per app that is making sound, and nothing is left in
-your audio path when you quit it. *Swift*
-
-**[Sotto](https://github.com/Orellius/sotto)** &mdash; hold a key, speak Hebrew, release, and
-clean text lands in the focused app. Apple ships no Hebrew in Translation, FoundationModels or
-NLTagger, so recognition and cleanup both run on a local Hebrew stack instead. *Rust, Tauri*
-
-**[Yayin](https://github.com/Orellius/yayin)** &mdash; run Windows games on a Mac. A native
-SwiftUI Wine bottle manager and launcher. *Swift*
+- **[Termisu](https://github.com/Orellius/termisu)**, an active pre-1.0 terminal with an original Rust engine and native Swift/AppKit host. Built for multilingual text and parallel coding-agent workspaces.
+- **[OpenDisplay](https://github.com/Orellius/opendisplay)**, a native display control panel for hidden HiDPI modes, software dimming, warmth, contrast, rotation, refresh rate, and DDC. No driver or kernel extension.
+- **[Sotto](https://github.com/Orellius/sotto)**, local Hebrew and English dictation with on-device speech recognition and cleanup. Audio stays on the Mac.
+- **[Trumpet](https://github.com/Orellius/trumpet)**, per-application volume control built on CoreAudio process taps. Nothing remains in the audio path after the app quits.
 
 ### Agents and developer tools
 
-**[octootter](https://github.com/Orellius/octootter)** &mdash; a desktop app that wraps the
-`claude` CLI as a subprocess, so hooks, skills and MCP servers keep working while the
-permission prompts stop yanking you back into a shell. *TypeScript, Tauri 2, Rust*
+- **[Octootter](https://github.com/Orellius/octootter)**, a native desktop workspace around the official `claude` CLI. The CLI, hooks, skills, and MCP servers remain the source of truth.
 
-**[januas-ade](https://github.com/Orellius/januas-ade)** &mdash; a native-Rust development
-environment: a GPU-rendered terminal multiplexer with wizard-driven setup. *Rust*
+### Systems and live software
 
-**[ISQ](https://github.com/Orellius/isq)** &mdash; a tribute to ICQ rebuilt for 2026, where AI
-agents are real members of the chat rather than bots in a sidebar, on the same sequential-number
-identity primitive. *TypeScript, Tauri*
+- **[glyphcast](https://github.com/Orellius/glyphcast)**, a typography-only video codec and streaming stack. Every frame is a glyph grid with per-cell color, rendered in one GPU draw call. **[Try it live](https://glyphcast.tv/).**
+- **[Wisp AdBlock Test](https://github.com/Orellius/wisp-adblock-test)**, a three-state privacy test for browser extensions, DNS filters, and VPNs. **[Run the test](https://orellius.github.io/wisp-adblock-test/).**
 
-### Systems and data
+## More public work
 
-**[glyphcast](https://github.com/Orellius/glyphcast)** &mdash; video as text. A typography-only
-codec: every frame is a Unicode glyph grid rendered in one GPU draw call, on a byte-aligned wire
-format a terminal can decode. 1,248,000 cells at 67 fps, measured. *TypeScript, WebGL2*
+Finished experiments, research, early builds, and superseded systems remain available in **[the repository list](https://github.com/Orellius?tab=repositories)**. Their READMEs state their status and limits; they are not presented here as equally active products.
 
-**[Azaka](https://github.com/Orellius/azaka)** &mdash; a live Red Alert map for Israel. Official
-Home Front Command alerts on MapLibre with per-area shelter countdowns, a Telegram bot and four
-locales. It never fakes an impact point, because open data cannot produce one.
-*TypeScript, React 19, Bun*
+Most original projects are AGPL-3.0. Smaller utilities and inherited work retain the licenses documented in their repositories.
 
-**[orellius-TCM](https://github.com/Orellius/orellius-TCM)** &mdash; a Telegram OSINT monitoring
-pipeline: LangGraph agents, local-LLM translation, human-in-the-loop review. Published for study.
-*Python*
-
-### Smaller things
-
-**[MEL](https://github.com/Orellius/mel)** &mdash; the Minecraft Enchantment Language. A real
-language, with its own lexer, parser and interpreter, whose canonical source form is the
-enchanting-table alphabet. *TypeScript*
-
-**[Responsive Viewer](https://github.com/Orellius/responsive-viewer)** &mdash; an MV3 extension
-that previews the page you are on at any device resolution, in place. 168 presets, no paywall.
-*JavaScript*
-
-**[wisp-adblock-test](https://github.com/Orellius/wisp-adblock-test)** &mdash; a one-screen test
-of what your ad blocker, DNS filter or VPN actually catches. An independent continuation of
-[Turtlecute33/adblocktest](https://github.com/Turtlecute33/adblocktest), itself a fork of
-[d3ward/toolz](https://github.com/d3ward/toolz), under CC BY-NC-SA 4.0. *EJS*
-
----
-
-Most of the above is **AGPL-3.0**: read it, run it, fork it, and if you run a modified version
-as a service, publish that source. The small ones are MIT, and the one continuation keeps the
-licence it inherited.
-
-[orel@orellius.ai](mailto:orel@orellius.ai) &nbsp;&middot;&nbsp; [orellius.ai](https://orellius.ai)
+[orellius.ai](https://orellius.ai/) · orel@orellius.ai · [LinkedIn](https://www.linkedin.com/in/orellius/)
