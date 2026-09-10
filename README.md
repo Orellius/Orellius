@@ -1,4 +1,4 @@
-# Orel Ohayon - Everything here that is not private, Open Sourced and free to use.
+# Orel Ohayon
 
 Systems architect building native software and agent infrastructure.
 
