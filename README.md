@@ -6,9 +6,8 @@ Coding agents are my implementation layer. I own the architecture, product decis
 
 ---
 
-More work in the Repositories Tab:
-Finished experiments, research, early builds, and superseded systems remain available in **[the repository list](https://github.com/Orellius?tab=repositories)**. Their READMEs state their status and limits; they are not presented here as equally active products.
+**[More work in Repositories Tab](https://github.com/Orellius?tab=repositories)** (Include): Finished experiments, research, early builds, and superseded systems. Their READMEs state their status and limits; they are not presented here as equally active products.
 
-Most original projects are AGPL-3.0. Smaller utilities and inherited work retain the licenses documented in their repositories.
+Original Projects are AGPL-3.0, but most are MIT.
 
 [orellius.ai](https://orellius.ai/) · orel@orellius.ai · [LinkedIn](https://www.linkedin.com/in/orellius/)
