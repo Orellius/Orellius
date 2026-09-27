@@ -1,7 +1,5 @@
-Systems architect building native software and agent infrastructure.
+# Orel Ohayon 🇮🇱
 
-Coding agents are my implementation layer. I own the architecture, product decisions, acceptance criteria, and verification. I read the code, instrument the claims, and decide what ships.
+I build Mac apps, Roblox games, and whatever tools I need to get them done.
 
----
-
-[orellius.ai](https://orellius.ai/) · orel@orellius.ai · [LinkedIn](https://www.linkedin.com/in/orellius/)
+orel@orellius.ai
